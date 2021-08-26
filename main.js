@@ -34,12 +34,6 @@ function gotResult(error, results) {
 function draw(){
     image(video,0,0,380,380)
 
-    fill("BLACK");
-    text("Brushes",280,10);
-    textSize(15);
-    noFill();
-    rect(280,0,120,190);
-
     
         r=random(255);
         g=random(255);
